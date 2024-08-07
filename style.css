@@ -1,0 +1,164 @@
+.roboto-regular 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.header 
+{
+    background-image: url(images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    background-attachment: fixed;
+         
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.menu .navbar ul li {
+
+    float: right;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    
+}
+
+.menu .navbar ul li a:hover {
+    color: black;
+}
+
+
+#menu {
+    display: none;
+}
+
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-txt ul li {
+    width: 40%;
+    
+}
+.
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: white;
+    background-color: aqua;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4); 
+    font-family: ;
+    }
+    
+ .btn-1:hover{
+      background-color: blue;
+    }
+
+    .images{
+        width: 800px;
+        height: 380px;
+        position: absolute;
+        right: 0;
+    }
+img {
+    width: 100%;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide h3 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    font-family: ;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.rows{
+    width: 180px;
+    position: absolute;
+    right: 620px;
+    bottom: 280px;
+}
+
+.swiper-button-prev {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.swiper-button-next {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+
+}
+.logo {
+    height: 70px;
+    width: 70px;
+    
+}
